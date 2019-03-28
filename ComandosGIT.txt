@@ -1,0 +1,59 @@
+***Clonar Repositorio:
+	>git clone urlQueDesejar
+	*A URL pega no proprio git em clone or download.
+
+***Mostrar quantas versões tem:
+	>git tag
+
+***Para trocar de versão:
+	>git checkout versaoQueDesejar
+
+***Ver diferença entre versões:
+	>git diff versaoQueDesejar versaoQueDesejar
+
+***Mostrar os arquivos que o git esta controlando:
+	>git ls-files
+
+***Status:
+	>git status
+
+***Cria um repositorio do git no terminal:
+	*criar uma pasta:
+	*Abrir o terminal Bash atraves dela;
+	*Para dizer que a pasta é um repositorio >git init
+				
+***Para adiciora um arquivo/pasta:          
+	>git add nomeDoArquivo			||
+	>git add nomeDoArquivo1 nomeDoArquivo2  ||
+	>git add caminhoDeUmDiretorio		||
+	>git add .
+
+***Gravar informações no repositorio:	 
+	>git commit -m "mensagemQueDesejar"
+	*Gravar Nome de Usuario			 >git config user.name "Everton Almeida"
+	*Gravar Email				 >git config user.email "evertonalmeida.ifrs@gmail.com"
+
+***Para salvar alteração de um arquivo:    
+	>git add nomeDoArquivo
+	
+***Para adicionar todos commits adicionados ou removidos:
+	>git commit -a -m "mensagemQueDesejar"
+
+***Para ver o historico de alterações:
+	>git log
+
+***Para passar os aruivos locais para o repositorio do git:
+	*Criar um repositorio no git
+	*Pegar a URL do repositorio criado
+	>git remote add origin urlCopiada
+	*Mandar alterações >git push origin master
+
+***Para passar o repositorio do git para maquina:
+	>git clone urlDoRepositorioDesejado
+
+
+	
+
+
+
+
