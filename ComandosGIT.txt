@@ -41,6 +41,8 @@
 
 ***Para ver o historico de alterações:
 	>git log
+	*Ver arquivos que foram alterados 	>git whatchanged
+	*Ver linhas dos arquivos modificadas	>git whatchanged -p 
 
 ***Para passar os aruivos locais para o repositorio do git:
 	*Criar um repositorio no git
@@ -50,6 +52,15 @@
 
 ***Para passar o repositorio do git para maquina:
 	>git clone urlDoRepositorioDesejado
+
+***Branch;
+	*Visualizar	>git branch
+	*Criar		>git branch nomeQueDesejar
+	*Ir para ela	>git checkout nomeQueDesejar
+
+
+
+
 
 
 	
